@@ -66,6 +66,7 @@ body {
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
+  background-color: rgb(255, 219, 219) !important;
 }
 ul {
   list-style-type: none;
@@ -228,7 +229,6 @@ Menu
 @media screen and (min-width: 1200px) {
   .section-center {
     width: 95vw;
-    grid-template-columns: 1fr 1fr;
   }
   .photo {
     height: 150px;
